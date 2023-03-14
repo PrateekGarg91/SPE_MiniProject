@@ -1,0 +1,8 @@
+---
+- name: Pull docker image from dockerhub
+  hosts: all
+  tasks:
+    - name: Pull docker image
+      docker_image:
+        name: prateekgarg91/spe_miniproject
+        source: pull
