@@ -1,8 +1,11 @@
 ---
-- name: Pull docker image from dockerhub
-  hosts: all
+- name: Playbook
+  hosts: prateek 
   tasks:
-    - name: Pull docker image
-      docker_image:
-        name: prateekgarg91/spe_miniproject
-        source: pull
+    - name: Start docker service
+      service:
+        name: docker
+        state: started
+
+    - name: pull docker image
+      shell: docker pull prateekgarg91/spe_miniproject 
