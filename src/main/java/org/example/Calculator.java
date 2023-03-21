@@ -109,9 +109,9 @@ public class Calculator {
         return result;
     }
     public double fact(double num) {
-        double facto = 1;
+        double factorial = 1;
         for(int i = 1; i <= num; ++i)
-        { facto *= i;   }
-        return  facto;
+        { factorial *= i;   }
+        return  factorial;
     }
 }
