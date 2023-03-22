@@ -25,7 +25,7 @@ public class Calculator {
 
             switch (choice) {
                 case 1:
-                    // Square root
+                    // Square root function
                     System.out.print("Enter a number : ");
                     number1 = scanner.nextDouble();
                     System.out.println("Square root of "+number1+" is : " + calculator.squareRoot(number1));
