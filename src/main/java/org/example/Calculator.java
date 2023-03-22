@@ -71,6 +71,8 @@ public class Calculator {
         double result = fact(number1);
         logger.info("[RESULT - FACTORIAL] - " + result);
         return result;
+
+        // demo run
     }
 
 
